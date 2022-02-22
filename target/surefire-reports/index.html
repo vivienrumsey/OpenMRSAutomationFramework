@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-openmrs_regression_test_suite" class="navigator-link">
+              <span class="suite-name border-passed">openmrs regression test suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-openmrs_regression_test_suite" class="navigator-link ">
+                    <span>C:\Users\kuku\OpenMRSAutomationFramework\src\test\testrunner\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-openmrs_regression_test_suite" class="navigator-link ">
+                    <span class="test-stats">5 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-openmrs_regression_test_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-openmrs_regression_test_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-openmrs_regression_test_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-openmrs_regression_test_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-openmrs_regression_test_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">22 methods,   22 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-openmrs_regression_test_suite" class="hide-methods passed suite-openmrs_regression_test_suite"> (hide)</a> <!-- hide-methods passed suite-openmrs_regression_test_suite -->
+                      <a href="#" panel-name="suite-openmrs_regression_test_suite" class="show-methods passed suite-openmrs_regression_test_suite"> (show)</a> <!-- show-methods passed suite-openmrs_regression_test_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-openmrs_regression_test_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-openmrs_regression_test_suite" title="com.openmrs.tests.FindPatientRecordPageTest" class="method navigator-link" hash-for-method="goToPatientPageTest">goToPatientPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-openmrs_regression_test_suite" title="com.openmrs.tests.RegisterPatientPageTest" class="method navigator-link" hash-for-method="registerNewPatientTest(John, Lennon, Male, 15, July, 1970, 123 Main Street, Dallas, Texas, United States, 75075, 214-567-88...)">registerNewPatientTest(John, Lennon, Male, 15, July, 1970, 123 Main Street, Dallas, Texas, United States, 75075, 214-567-88...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-openmrs_regression_test_suite" title="com.openmrs.tests.RegisterPatientPageTest" class="method navigator-link" hash-for-method="registerNewPatientTest(Vivien, Miller, Female, 28, March, 1975, 456 Main Street, Austin, Texas, United States, 70075, 218-7...)">registerNewPatientTest(Vivien, Miller, Female, 28, March, 1975, 456 Main Street, Austin, Texas, United States, 70075, 218-7...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-openmrs_regression_test_suite" title="com.openmrs.tests.FindPatientRecordPageTest" class="method navigator-link" hash-for-method="searchPatientTest">searchPatientTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-openmrs_regression_test_suite" title="com.openmrs.tests.AdminDashBoardPageTest" class="method navigator-link" hash-for-method="validateAdminPageNameTest">validateAdminPageNameTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-openmrs_regression_test_suite" title="com.openmrs.tests.AdminDashBoardPageTest" class="method navigator-link" hash-for-method="validateAppsListTest">validateAppsListTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-openmrs_regression_test_suite" title="com.openmrs.tests.LoginPageTest" class="method navigator-link" hash-for-method="validateCantLoginMessageTest">validateCantLoginMessageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-openmrs_regression_test_suite" title="com.openmrs.tests.PatientPageTest" class="method navigator-link" hash-for-method="validateGActionsListTest">validateGActionsListTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-openmrs_regression_test_suite" title="com.openmrs.tests.LoginPageTest" class="method navigator-link" hash-for-method="validateLocationsListTest">validateLocationsListTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-openmrs_regression_test_suite" title="com.openmrs.tests.LoginPageTest" class="method navigator-link" hash-for-method="validateLoginOnlyWithLocationTest">validateLoginOnlyWithLocationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-openmrs_regression_test_suite" title="com.openmrs.tests.LoginPageTest" class="method navigator-link" hash-for-method="validateLoginWithoutLocationTest">validateLoginWithoutLocationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-openmrs_regression_test_suite" title="com.openmrs.tests.FindPatientRecordPageTest" class="method navigator-link" hash-for-method="validatePageNameTest">validatePageNameTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-openmrs_regression_test_suite" title="com.openmrs.tests.LoginPageTest" class="method navigator-link" hash-for-method="validatePageTitleTest">validatePageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-openmrs_regression_test_suite" title="com.openmrs.tests.LoginPageTest" class="method navigator-link" hash-for-method="validateUserLoginTest">validateUserLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-openmrs_regression_test_suite" title="com.openmrs.tests.LoginPageTest" class="method navigator-link" hash-for-method="verifyApplicationLogoTest">verifyApplicationLogoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-openmrs_regression_test_suite" title="com.openmrs.tests.LoginPageTest" class="method navigator-link" hash-for-method="verifyCantLoginLinkTest">verifyCantLoginLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-openmrs_regression_test_suite" title="com.openmrs.tests.PatientPageTest" class="method navigator-link" hash-for-method="verifyGActionsLinkTest">verifyGActionsLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-openmrs_regression_test_suite" title="com.openmrs.tests.AdminDashBoardPageTest" class="method navigator-link" hash-for-method="verifyLocationLinkTest">verifyLocationLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-openmrs_regression_test_suite" title="com.openmrs.tests.LoginPageTest" class="method navigator-link" hash-for-method="verifyLoginButtonStatusTest">verifyLoginButtonStatusTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-openmrs_regression_test_suite" title="com.openmrs.tests.AdminDashBoardPageTest" class="method navigator-link" hash-for-method="verifyLogoutLinkTest">verifyLogoutLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-openmrs_regression_test_suite" title="com.openmrs.tests.AdminDashBoardPageTest" class="method navigator-link" hash-for-method="verifyLogoutTest">verifyLogoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-openmrs_regression_test_suite" title="com.openmrs.tests.FindPatientRecordPageTest" class="method navigator-link" hash-for-method="verifyPatientSearchStatusTest">verifyPatientSearchStatusTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-openmrs_regression_test_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-openmrs_regression_test_suite" class="panel openmrs_regression_test_suite">
+          <div class="suite-openmrs_regression_test_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.openmrs.tests.AdminDashBoardPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAdminPageNameTest">
+                  </a> <!-- validateAdminPageNameTest -->
+                  <span class="method-name">validateAdminPageNameTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAppsListTest">
+                  </a> <!-- validateAppsListTest -->
+                  <span class="method-name">validateAppsListTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLocationLinkTest">
+                  </a> <!-- verifyLocationLinkTest -->
+                  <span class="method-name">verifyLocationLinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogoutLinkTest">
+                  </a> <!-- verifyLogoutLinkTest -->
+                  <span class="method-name">verifyLogoutLinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogoutTest">
+                  </a> <!-- verifyLogoutTest -->
+                  <span class="method-name">verifyLogoutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-openmrs_regression_test_suite-class-passed -->
+          <div class="suite-openmrs_regression_test_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.openmrs.tests.FindPatientRecordPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="goToPatientPageTest">
+                  </a> <!-- goToPatientPageTest -->
+                  <span class="method-name">goToPatientPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchPatientTest">
+                  </a> <!-- searchPatientTest -->
+                  <span class="method-name">searchPatientTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatePageNameTest">
+                  </a> <!-- validatePageNameTest -->
+                  <span class="method-name">validatePageNameTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPatientSearchStatusTest">
+                  </a> <!-- verifyPatientSearchStatusTest -->
+                  <span class="method-name">verifyPatientSearchStatusTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-openmrs_regression_test_suite-class-passed -->
+          <div class="suite-openmrs_regression_test_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.openmrs.tests.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCantLoginMessageTest">
+                  </a> <!-- validateCantLoginMessageTest -->
+                  <span class="method-name">validateCantLoginMessageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLocationsListTest">
+                  </a> <!-- validateLocationsListTest -->
+                  <span class="method-name">validateLocationsListTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoginOnlyWithLocationTest">
+                  </a> <!-- validateLoginOnlyWithLocationTest -->
+                  <span class="method-name">validateLoginOnlyWithLocationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoginWithoutLocationTest">
+                  </a> <!-- validateLoginWithoutLocationTest -->
+                  <span class="method-name">validateLoginWithoutLocationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatePageTitleTest">
+                  </a> <!-- validatePageTitleTest -->
+                  <span class="method-name">validatePageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserLoginTest">
+                  </a> <!-- validateUserLoginTest -->
+                  <span class="method-name">validateUserLoginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyApplicationLogoTest">
+                  </a> <!-- verifyApplicationLogoTest -->
+                  <span class="method-name">verifyApplicationLogoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCantLoginLinkTest">
+                  </a> <!-- verifyCantLoginLinkTest -->
+                  <span class="method-name">verifyCantLoginLinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginButtonStatusTest">
+                  </a> <!-- verifyLoginButtonStatusTest -->
+                  <span class="method-name">verifyLoginButtonStatusTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-openmrs_regression_test_suite-class-passed -->
+          <div class="suite-openmrs_regression_test_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.openmrs.tests.RegisterPatientPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerNewPatientTest(John, Lennon, Male, 15, July, 1970, 123 Main Street, Dallas, Texas, United States, 75075, 214-567-88...)">
+                  </a> <!-- registerNewPatientTest(John, Lennon, Male, 15, July, 1970, 123 Main Street, Dallas, Texas, United States, 75075, 214-567-88...) -->
+                  <span class="method-name">registerNewPatientTest</span>
+                  <span class="parameters">(John, Lennon, Male, 15, July, 1970, 123 Main Street, Dallas, Texas, United States, 75075, 214-567-8899)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerNewPatientTest(Vivien, Miller, Female, 28, March, 1975, 456 Main Street, Austin, Texas, United States, 70075, 218-7...)">
+                  </a> <!-- registerNewPatientTest(Vivien, Miller, Female, 28, March, 1975, 456 Main Street, Austin, Texas, United States, 70075, 218-7...) -->
+                  <span class="method-name">registerNewPatientTest</span>
+                  <span class="parameters">(Vivien, Miller, Female, 28, March, 1975, 456 Main Street, Austin, Texas, United States, 70075, 218-789-5566)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-openmrs_regression_test_suite-class-passed -->
+          <div class="suite-openmrs_regression_test_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.openmrs.tests.PatientPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateGActionsListTest">
+                  </a> <!-- validateGActionsListTest -->
+                  <span class="method-name">validateGActionsListTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGActionsLinkTest">
+                  </a> <!-- verifyGActionsLinkTest -->
+                  <span class="method-name">verifyGActionsLinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-openmrs_regression_test_suite-class-passed -->
+        </div> <!-- panel openmrs_regression_test_suite -->
+        <div panel-name="test-xml-openmrs_regression_test_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\kuku\OpenMRSAutomationFramework\src\test\testrunner\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;tests&quot; name=&quot;openmrs regression test suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.openmrs.testlisteners.ExtentReportListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.openmrs.testlisteners.AllureReportListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;login page test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.openmrs.tests.LoginPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- login page test --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;AdminDashBoard page test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.openmrs.tests.AdminDashBoardPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AdminDashBoard page test --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;RegisterPatient page test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.openmrs.tests.RegisterPatientPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RegisterPatient page test --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;FindPatientRecord page test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.openmrs.tests.FindPatientRecordPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- FindPatientRecord page test --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Patient page test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.openmrs.tests.PatientPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Patient page test --&gt;
+&lt;/suite&gt; &lt;!-- openmrs regression test suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-openmrs_regression_test_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for openmrs regression test suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">login page test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">AdminDashBoard page test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">RegisterPatient page test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">FindPatientRecord page test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Patient page test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-openmrs_regression_test_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for openmrs regression test suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-openmrs_regression_test_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for openmrs regression test suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_openmrs_regression_test_suite');
+function tableData_openmrs_regression_test_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(22);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'searchPatientTest')
+data.setCell(0, 2, 'com.openmrs.tests.FindPatientRecordPageTest')
+data.setCell(0, 3, 22429);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'registerNewPatientTest')
+data.setCell(1, 2, 'com.openmrs.tests.RegisterPatientPageTest')
+data.setCell(1, 3, 8180);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'registerNewPatientTest')
+data.setCell(2, 2, 'com.openmrs.tests.RegisterPatientPageTest')
+data.setCell(2, 3, 6942);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'goToPatientPageTest')
+data.setCell(3, 2, 'com.openmrs.tests.FindPatientRecordPageTest')
+data.setCell(3, 3, 4698);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyApplicationLogoTest')
+data.setCell(4, 2, 'com.openmrs.tests.LoginPageTest')
+data.setCell(4, 3, 1579);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'validateUserLoginTest')
+data.setCell(5, 2, 'com.openmrs.tests.LoginPageTest')
+data.setCell(5, 3, 1240);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validateLoginOnlyWithLocationTest')
+data.setCell(6, 2, 'com.openmrs.tests.LoginPageTest')
+data.setCell(6, 3, 1103);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyLogoutTest')
+data.setCell(7, 2, 'com.openmrs.tests.AdminDashBoardPageTest')
+data.setCell(7, 3, 926);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'validateLocationsListTest')
+data.setCell(8, 2, 'com.openmrs.tests.LoginPageTest')
+data.setCell(8, 3, 469);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'validateCantLoginMessageTest')
+data.setCell(9, 2, 'com.openmrs.tests.LoginPageTest')
+data.setCell(9, 3, 452);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'validateLoginWithoutLocationTest')
+data.setCell(10, 2, 'com.openmrs.tests.LoginPageTest')
+data.setCell(10, 3, 438);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'validateGActionsListTest')
+data.setCell(11, 2, 'com.openmrs.tests.PatientPageTest')
+data.setCell(11, 3, 184);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyLoginButtonStatusTest')
+data.setCell(12, 2, 'com.openmrs.tests.LoginPageTest')
+data.setCell(12, 3, 170);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'validateAppsListTest')
+data.setCell(13, 2, 'com.openmrs.tests.AdminDashBoardPageTest')
+data.setCell(13, 3, 153);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyLogoutLinkTest')
+data.setCell(14, 2, 'com.openmrs.tests.AdminDashBoardPageTest')
+data.setCell(14, 3, 97);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyCantLoginLinkTest')
+data.setCell(15, 2, 'com.openmrs.tests.LoginPageTest')
+data.setCell(15, 3, 75);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyLocationLinkTest')
+data.setCell(16, 2, 'com.openmrs.tests.AdminDashBoardPageTest')
+data.setCell(16, 3, 65);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'validatePageTitleTest')
+data.setCell(17, 2, 'com.openmrs.tests.LoginPageTest')
+data.setCell(17, 3, 51);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyPatientSearchStatusTest')
+data.setCell(18, 2, 'com.openmrs.tests.FindPatientRecordPageTest')
+data.setCell(18, 3, 46);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifyGActionsLinkTest')
+data.setCell(19, 2, 'com.openmrs.tests.PatientPageTest')
+data.setCell(19, 3, 45);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'validatePageNameTest')
+data.setCell(20, 2, 'com.openmrs.tests.FindPatientRecordPageTest')
+data.setCell(20, 3, 44);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'validateAdminPageNameTest')
+data.setCell(21, 2, 'com.openmrs.tests.AdminDashBoardPageTest')
+data.setCell(21, 3, 35);
+window.suiteTableData['openmrs_regression_test_suite']= { tableData: data, tableDiv: 'times-div-openmrs_regression_test_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 49 seconds</span>
+              <div id="times-div-openmrs_regression_test_suite">
+              </div> <!-- times-div-openmrs_regression_test_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-openmrs_regression_test_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for openmrs regression test suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-openmrs_regression_test_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-openmrs_regression_test_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.openmrs.tests.FindPatientRecordPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.openmrs.tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.openmrs.tests.AdminDashBoardPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.openmrs.tests.RegisterPatientPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.openmrs.tests.PatientPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.openmrs.tests.FindPatientRecordPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">findPatientPageSetup</span>
+                <span class="method-start">38170 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.openmrs.tests.PatientPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">patientPageSetup</span>
+                <span class="method-start">38170 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.openmrs.tests.AdminDashBoardPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">adminDashBoardPageSetup</span>
+                <span class="method-start">38171 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.openmrs.tests.RegisterPatientPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">registerPatientPageSetup</span>
+                <span class="method-start">38171 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.openmrs.tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyApplicationLogoTest</span>
+                <span class="method-start">38194 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validatePageTitleTest</span>
+                <span class="method-start">40025 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateLocationsListTest</span>
+                <span class="method-start">40086 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginButtonStatusTest</span>
+                <span class="method-start">40555 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyCantLoginLinkTest</span>
+                <span class="method-start">40728 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateCantLoginMessageTest</span>
+                <span class="method-start">40805 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateLoginWithoutLocationTest</span>
+                <span class="method-start">41261 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateLoginOnlyWithLocationTest</span>
+                <span class="method-start">41701 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateUserLoginTest</span>
+                <span class="method-start">42915 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.openmrs.tests.AdminDashBoardPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateAdminPageNameTest</span>
+                <span class="method-start">43555 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLocationLinkTest</span>
+                <span class="method-start">43600 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateAppsListTest</span>
+                <span class="method-start">43764 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLogoutLinkTest</span>
+                <span class="method-start">43919 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLogoutTest</span>
+                <span class="method-start">44019 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.openmrs.tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">44167 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.openmrs.tests.AdminDashBoardPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">45056 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.openmrs.tests.FindPatientRecordPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validatePageNameTest</span>
+                <span class="method-start">45546 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyPatientSearchStatusTest</span>
+                <span class="method-start">45592 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchPatientTest</span>
+                <span class="method-start">45775 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.openmrs.tests.RegisterPatientPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">registerNewPatientTest(John, Lennon, Male, 15, July, 1970, 123 Main Street, Dallas, Texas, United States, 75075, 214-567-88...)</span>
+                <span class="method-start">67079 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.openmrs.tests.PatientPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyGActionsLinkTest</span>
+                <span class="method-start">68159 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateGActionsListTest</span>
+                <span class="method-start">68215 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.openmrs.tests.FindPatientRecordPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">goToPatientPageTest</span>
+                <span class="method-start">68215 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.openmrs.tests.PatientPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">68401 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.openmrs.tests.FindPatientRecordPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">72915 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.openmrs.tests.RegisterPatientPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">registerNewPatientTest(Vivien, Miller, Female, 28, March, 1975, 456 Main Street, Austin, Texas, United States, 70075, 218-7...)</span>
+                <span class="method-start">75263 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">82215 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

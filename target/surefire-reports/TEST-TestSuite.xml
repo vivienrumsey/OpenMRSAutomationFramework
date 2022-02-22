@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="85.731" tests="22" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Program Files\Apachi Software\apache-maven-3.8.4\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="maven.conf" value="C:\Program Files\Apachi Software\apache-maven-3.8.4/conf"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="C:\Program Files\Apachi Software\apache-maven-3.8.4"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\kuku"/>
+    <property name="user.language" value="en"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.11"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.11+9-LTS-194"/>
+    <property name="user.name" value="kuku"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\kuku\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.11"/>
+    <property name="user.dir" value="C:\Users\kuku\OpenMRSAutomationFramework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\kuku\OpenMRSAutomationFramework"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk-11.0.11\bin;C:\Program Files\Apachi Software\apache-maven-3.8.4\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\kuku\scoop\shims;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\kuku\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.2\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2020.1.1\bin;;C:\Users\kuku\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.11+9-LTS-194"/>
+    <property name="classworlds.conf" value="C:\Program Files\Apachi Software\apache-maven-3.8.4\bin\m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="library.jansi.path" value="C:\Program Files\Apachi Software\apache-maven-3.8.4\lib\jansi-native"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="verifyApplicationLogoTest" classname="com.openmrs.tests.LoginPageTest" time="0.51"/>
+  <testcase name="validatePageTitleTest" classname="com.openmrs.tests.LoginPageTest" time="0.05"/>
+  <testcase name="validateLocationsListTest" classname="com.openmrs.tests.LoginPageTest" time="0.469"/>
+  <testcase name="verifyLoginButtonStatusTest" classname="com.openmrs.tests.LoginPageTest" time="0.173"/>
+  <testcase name="verifyCantLoginLinkTest" classname="com.openmrs.tests.LoginPageTest" time="0.07"/>
+  <testcase name="validateCantLoginMessageTest" classname="com.openmrs.tests.LoginPageTest" time="0.451"/>
+  <testcase name="validateLoginWithoutLocationTest" classname="com.openmrs.tests.LoginPageTest" time="0.437"/>
+  <testcase name="validateLoginOnlyWithLocationTest" classname="com.openmrs.tests.LoginPageTest" time="1.211"/>
+  <testcase name="validateAdminPageNameTest" classname="com.openmrs.tests.AdminDashBoardPageTest" time="0.041"/>
+  <testcase name="verifyLocationLinkTest" classname="com.openmrs.tests.AdminDashBoardPageTest" time="0.16"/>
+  <testcase name="validateAppsListTest" classname="com.openmrs.tests.AdminDashBoardPageTest" time="0.151"/>
+  <testcase name="verifyLogoutLinkTest" classname="com.openmrs.tests.AdminDashBoardPageTest" time="0.097"/>
+  <testcase name="validateUserLoginTest" classname="com.openmrs.tests.LoginPageTest" time="0.145"/>
+  <testcase name="verifyLogoutTest" classname="com.openmrs.tests.AdminDashBoardPageTest" time="1.034"/>
+  <testcase name="validatePageNameTest" classname="com.openmrs.tests.FindPatientRecordPageTest" time="0.041"/>
+  <testcase name="verifyPatientSearchStatusTest" classname="com.openmrs.tests.FindPatientRecordPageTest" time="0.18"/>
+  <testcase name="verifyGActionsLinkTest" classname="com.openmrs.tests.PatientPageTest" time="0.053"/>
+  <testcase name="searchPatientTest" classname="com.openmrs.tests.FindPatientRecordPageTest" time="0.053"/>
+  <testcase name="validateGActionsListTest" classname="com.openmrs.tests.PatientPageTest" time="0.186"/>
+  <testcase name="goToPatientPageTest" classname="com.openmrs.tests.FindPatientRecordPageTest" time="4.7"/>
+  <testcase name="registerNewPatientTest" classname="com.openmrs.tests.RegisterPatientPageTest" time="7.047"/>
+  <testcase name="registerNewPatientTest" classname="com.openmrs.tests.RegisterPatientPageTest" time="6.949"/>
+</testsuite>

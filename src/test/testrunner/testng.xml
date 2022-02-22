@@ -1,0 +1,44 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="openmrs regression test suite" parallel="tests" thread-count="5" verbose="3"  >
+    <listeners>
+        <listener class-name="com.openmrs.testlisteners.ExtentReportListener"></listener>
+        <listener class-name="com.openmrs.testlisteners.AllureReportListener"></listener>
+    </listeners>
+
+    <test name="login page test" >
+        <classes>
+            <class name="com.openmrs.tests.LoginPageTest" >
+            </class>
+        </classes>
+    </test>
+
+    <test name="AdminDashBoard page test" >
+        <classes>
+            <class name="com.openmrs.tests.AdminDashBoardPageTest" >
+            </class>
+        </classes>
+    </test>
+
+    <test name="RegisterPatient page test" >
+        <classes>
+            <class name="com.openmrs.tests.RegisterPatientPageTest" >
+            </class>
+        </classes>
+    </test>
+
+    <test name="FindPatientRecord page test" >
+        <classes>
+            <class name="com.openmrs.tests.FindPatientRecordPageTest" >
+            </class>
+        </classes>
+    </test>
+
+    <test name="Patient page test" >
+        <classes>
+            <class name="com.openmrs.tests.PatientPageTest" >
+            </class>
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="22" passed="22" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-18T22:38:14Z" name="openmrs regression test suite" finished-at="2022-02-18T22:39:37Z" duration-ms="83124">
+    <groups>
+    </groups>
+    <test started-at="2022-02-18T22:38:14Z" name="login page test" finished-at="2022-02-18T22:39:24Z" duration-ms="69349">
+      <class name="com.openmrs.tests.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.openmrs.tests.LoginPageTest@61bfc9bf]" started-at="2022-02-18T22:38:14Z" name="setup" finished-at="2022-02-18T22:38:52Z" duration-ms="37635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyApplicationLogoTest()[pri:1, instance:com.openmrs.tests.LoginPageTest@61bfc9bf]" started-at="2022-02-18T22:38:52Z" name="verifyApplicationLogoTest" finished-at="2022-02-18T22:38:54Z" duration-ms="1579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyApplicationLogoTest -->
+        <test-method signature="validatePageTitleTest()[pri:2, instance:com.openmrs.tests.LoginPageTest@61bfc9bf]" started-at="2022-02-18T22:38:54Z" name="validatePageTitleTest" finished-at="2022-02-18T22:38:54Z" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePageTitleTest -->
+        <test-method signature="validateLocationsListTest()[pri:3, instance:com.openmrs.tests.LoginPageTest@61bfc9bf]" started-at="2022-02-18T22:38:54Z" name="validateLocationsListTest" finished-at="2022-02-18T22:38:55Z" duration-ms="469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLocationsListTest -->
+        <test-method signature="verifyLoginButtonStatusTest()[pri:4, instance:com.openmrs.tests.LoginPageTest@61bfc9bf]" started-at="2022-02-18T22:38:55Z" name="verifyLoginButtonStatusTest" finished-at="2022-02-18T22:38:55Z" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginButtonStatusTest -->
+        <test-method signature="verifyCantLoginLinkTest()[pri:5, instance:com.openmrs.tests.LoginPageTest@61bfc9bf]" started-at="2022-02-18T22:38:55Z" name="verifyCantLoginLinkTest" finished-at="2022-02-18T22:38:55Z" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCantLoginLinkTest -->
+        <test-method signature="validateCantLoginMessageTest()[pri:6, instance:com.openmrs.tests.LoginPageTest@61bfc9bf]" started-at="2022-02-18T22:38:55Z" name="validateCantLoginMessageTest" finished-at="2022-02-18T22:38:55Z" duration-ms="452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCantLoginMessageTest -->
+        <test-method signature="validateLoginWithoutLocationTest()[pri:7, instance:com.openmrs.tests.LoginPageTest@61bfc9bf]" started-at="2022-02-18T22:38:55Z" name="validateLoginWithoutLocationTest" finished-at="2022-02-18T22:38:56Z" duration-ms="438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginWithoutLocationTest -->
+        <test-method signature="validateLoginOnlyWithLocationTest()[pri:8, instance:com.openmrs.tests.LoginPageTest@61bfc9bf]" started-at="2022-02-18T22:38:56Z" name="validateLoginOnlyWithLocationTest" finished-at="2022-02-18T22:38:57Z" duration-ms="1103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginOnlyWithLocationTest -->
+        <test-method signature="validateUserLoginTest()[pri:9, instance:com.openmrs.tests.LoginPageTest@61bfc9bf]" started-at="2022-02-18T22:38:57Z" name="validateUserLoginTest" finished-at="2022-02-18T22:38:58Z" duration-ms="1240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserLoginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.openmrs.tests.LoginPageTest@61bfc9bf]" started-at="2022-02-18T22:38:58Z" name="teardown" finished-at="2022-02-18T22:39:24Z" duration-ms="25170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.openmrs.tests.LoginPageTest -->
+    </test> <!-- login page test -->
+    <test started-at="2022-02-18T22:38:14Z" name="AdminDashBoard page test" finished-at="2022-02-18T22:39:24Z" duration-ms="70007">
+      <class name="com.openmrs.tests.AdminDashBoardPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.openmrs.tests.AdminDashBoardPageTest@7d78f3d5]" started-at="2022-02-18T22:38:14Z" name="setup" finished-at="2022-02-18T22:38:52Z" duration-ms="37640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="adminDashBoardPageSetup()[pri:0, instance:com.openmrs.tests.AdminDashBoardPageTest@7d78f3d5]" started-at="2022-02-18T22:38:52Z" name="adminDashBoardPageSetup" finished-at="2022-02-18T22:38:58Z" duration-ms="5383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminDashBoardPageSetup -->
+        <test-method signature="validateAdminPageNameTest()[pri:1, instance:com.openmrs.tests.AdminDashBoardPageTest@7d78f3d5]" started-at="2022-02-18T22:38:58Z" name="validateAdminPageNameTest" finished-at="2022-02-18T22:38:58Z" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAdminPageNameTest -->
+        <test-method signature="verifyLocationLinkTest()[pri:2, instance:com.openmrs.tests.AdminDashBoardPageTest@7d78f3d5]" started-at="2022-02-18T22:38:58Z" name="verifyLocationLinkTest" finished-at="2022-02-18T22:38:58Z" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLocationLinkTest -->
+        <test-method signature="validateAppsListTest()[pri:3, instance:com.openmrs.tests.AdminDashBoardPageTest@7d78f3d5]" started-at="2022-02-18T22:38:58Z" name="validateAppsListTest" finished-at="2022-02-18T22:38:58Z" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppsListTest -->
+        <test-method signature="verifyLogoutLinkTest()[pri:4, instance:com.openmrs.tests.AdminDashBoardPageTest@7d78f3d5]" started-at="2022-02-18T22:38:58Z" name="verifyLogoutLinkTest" finished-at="2022-02-18T22:38:58Z" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutLinkTest -->
+        <test-method signature="verifyLogoutTest()[pri:5, instance:com.openmrs.tests.AdminDashBoardPageTest@7d78f3d5]" started-at="2022-02-18T22:38:58Z" name="verifyLogoutTest" finished-at="2022-02-18T22:38:59Z" duration-ms="926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.openmrs.tests.AdminDashBoardPageTest@7d78f3d5]" started-at="2022-02-18T22:38:59Z" name="teardown" finished-at="2022-02-18T22:39:24Z" duration-ms="24939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.openmrs.tests.AdminDashBoardPageTest -->
+    </test> <!-- AdminDashBoard page test -->
+    <test started-at="2022-02-18T22:38:14Z" name="FindPatientRecord page test" finished-at="2022-02-18T22:39:31Z" duration-ms="77111">
+      <class name="com.openmrs.tests.FindPatientRecordPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.openmrs.tests.FindPatientRecordPageTest@17461db]" started-at="2022-02-18T22:38:14Z" name="setup" finished-at="2022-02-18T22:38:52Z" duration-ms="37637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="findPatientPageSetup()[pri:0, instance:com.openmrs.tests.FindPatientRecordPageTest@17461db]" started-at="2022-02-18T22:38:52Z" name="findPatientPageSetup" finished-at="2022-02-18T22:39:00Z" duration-ms="7376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findPatientPageSetup -->
+        <test-method signature="validatePageNameTest()[pri:1, instance:com.openmrs.tests.FindPatientRecordPageTest@17461db]" started-at="2022-02-18T22:39:00Z" name="validatePageNameTest" finished-at="2022-02-18T22:39:00Z" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePageNameTest -->
+        <test-method signature="verifyPatientSearchStatusTest()[pri:2, instance:com.openmrs.tests.FindPatientRecordPageTest@17461db]" started-at="2022-02-18T22:39:00Z" name="verifyPatientSearchStatusTest" finished-at="2022-02-18T22:39:00Z" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPatientSearchStatusTest -->
+        <test-method signature="searchPatientTest()[pri:3, instance:com.openmrs.tests.FindPatientRecordPageTest@17461db]" started-at="2022-02-18T22:39:00Z" name="searchPatientTest" finished-at="2022-02-18T22:39:22Z" duration-ms="22429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPatientTest -->
+        <test-method signature="goToPatientPageTest()[pri:4, instance:com.openmrs.tests.FindPatientRecordPageTest@17461db]" started-at="2022-02-18T22:39:22Z" name="goToPatientPageTest" finished-at="2022-02-18T22:39:27Z" duration-ms="4698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToPatientPageTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.openmrs.tests.FindPatientRecordPageTest@17461db]" started-at="2022-02-18T22:39:27Z" name="teardown" finished-at="2022-02-18T22:39:31Z" duration-ms="4184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.openmrs.tests.FindPatientRecordPageTest -->
+    </test> <!-- FindPatientRecord page test -->
+    <test started-at="2022-02-18T22:38:14Z" name="Patient page test" finished-at="2022-02-18T22:39:31Z" duration-ms="77179">
+      <class name="com.openmrs.tests.PatientPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.openmrs.tests.PatientPageTest@6c5ddccd]" started-at="2022-02-18T22:38:14Z" name="setup" finished-at="2022-02-18T22:38:52Z" duration-ms="37606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="patientPageSetup()[pri:0, instance:com.openmrs.tests.PatientPageTest@6c5ddccd]" started-at="2022-02-18T22:38:52Z" name="patientPageSetup" finished-at="2022-02-18T22:39:22Z" duration-ms="29988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patientPageSetup -->
+        <test-method signature="verifyGActionsLinkTest()[pri:1, instance:com.openmrs.tests.PatientPageTest@6c5ddccd]" started-at="2022-02-18T22:39:22Z" name="verifyGActionsLinkTest" finished-at="2022-02-18T22:39:22Z" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGActionsLinkTest -->
+        <test-method signature="validateGActionsListTest()[pri:2, instance:com.openmrs.tests.PatientPageTest@6c5ddccd]" started-at="2022-02-18T22:39:22Z" name="validateGActionsListTest" finished-at="2022-02-18T22:39:23Z" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGActionsListTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.openmrs.tests.PatientPageTest@6c5ddccd]" started-at="2022-02-18T22:39:23Z" name="teardown" finished-at="2022-02-18T22:39:31Z" duration-ms="8766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.openmrs.tests.PatientPageTest -->
+    </test> <!-- Patient page test -->
+    <test started-at="2022-02-18T22:38:14Z" name="RegisterPatient page test" finished-at="2022-02-18T22:39:37Z" duration-ms="83124">
+      <class name="com.openmrs.tests.RegisterPatientPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.openmrs.tests.RegisterPatientPageTest@3fba233d]" started-at="2022-02-18T22:38:14Z" name="setup" finished-at="2022-02-18T22:38:52Z" duration-ms="37649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="registerPatientPageSetup()[pri:0, instance:com.openmrs.tests.RegisterPatientPageTest@3fba233d]" started-at="2022-02-18T22:38:52Z" name="registerPatientPageSetup" finished-at="2022-02-18T22:39:00Z" duration-ms="7822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerPatientPageSetup -->
+        <test-method signature="registerNewPatientTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.openmrs.tests.RegisterPatientPageTest@3fba233d]" started-at="2022-02-18T22:39:21Z" name="registerNewPatientTest" data-provider="getUserData" finished-at="2022-02-18T22:39:29Z" duration-ms="8180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lennon]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[July]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1970]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[123 Main Street]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Dallas]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Texas]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[75075]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[214-567-8899]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerNewPatientTest -->
+        <test-method signature="registerNewPatientTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.openmrs.tests.RegisterPatientPageTest@3fba233d]" started-at="2022-02-18T22:39:29Z" name="registerNewPatientTest" data-provider="getUserData" finished-at="2022-02-18T22:39:36Z" duration-ms="6942" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vivien]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Miller]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[28]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[March]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1975]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[456 Main Street]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Austin]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Texas]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[70075]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[218-789-5566]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerNewPatientTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.openmrs.tests.RegisterPatientPageTest@3fba233d]" started-at="2022-02-18T22:39:36Z" name="teardown" finished-at="2022-02-18T22:39:37Z" duration-ms="897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.openmrs.tests.RegisterPatientPageTest -->
+    </test> <!-- RegisterPatient page test -->
+  </suite> <!-- openmrs regression test suite -->
+</testng-results>
