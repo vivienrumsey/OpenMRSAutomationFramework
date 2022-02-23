@@ -6,12 +6,14 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.util.concurrent.TimeUnit;
+
 public class FindPatientRecordPageTest extends BaseTest {
 
     @BeforeClass
     public void findPatientPageSetup() {
         adminDashBoardPage = loginPage.doLogin(prop.getProperty("id"), prop.getProperty("pass"));
-        elementUtil.waitFor(1000);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         findPatientRecordPage = adminDashBoardPage.goToFindPatientRecordPage();
     }
 
