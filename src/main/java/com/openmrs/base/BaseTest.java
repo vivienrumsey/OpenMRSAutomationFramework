@@ -2,6 +2,7 @@ package com.openmrs.base;
 
 import com.openmrs.pages.*;
 
+import com.openmrs.utils.ElementUtil;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -12,6 +13,7 @@ public class BaseTest {
 
     public  WebDriver driver;
     public Properties prop;
+    public ElementUtil elementUtil;
     public BasePage basePage;
     public LoginPage loginPage;
     public AdminDashBoardPage adminDashBoardPage;

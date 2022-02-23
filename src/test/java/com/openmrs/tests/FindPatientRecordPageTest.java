@@ -11,6 +11,7 @@ public class FindPatientRecordPageTest extends BaseTest {
     @BeforeClass
     public void findPatientPageSetup() {
         adminDashBoardPage = loginPage.doLogin(prop.getProperty("id"), prop.getProperty("pass"));
+        elementUtil.waitFor(1000);
         findPatientRecordPage = adminDashBoardPage.goToFindPatientRecordPage();
     }
 
